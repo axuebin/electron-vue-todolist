@@ -1,0 +1,33 @@
+{
+  "comments": false,
+  "env": {
+    "main": {
+      "presets": [
+        ["env", {
+          "targets": { "node": 7 }
+        }],
+        "stage-0"
+      ],
+      "plugins": ["transform-vue-jsx"]
+    },
+    "renderer": {
+      "presets": [
+        ["env", {
+          "modules": false
+        }],
+        "stage-0"
+      ],
+      "plugins": ["transform-vue-jsx"]
+    },
+    "web": {
+      "presets": [
+        ["env", {
+          "modules": false
+        }],
+        "stage-0"
+      ],
+      "plugins": ["transform-vue-jsx"]
+    }
+  },
+  "plugins": ["transform-runtime"]
+}
