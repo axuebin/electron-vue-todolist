@@ -33,8 +33,9 @@
           input.focus();
           const that = this;
           input.onblur = function () {
-            element.innerHTML = this.value === oldHtml ? oldHtml : this.value;
-            that.save(element.innerHTML);
+            const newValue = this.value === oldHtml ? oldHtml : this.value;
+            // element.innerHTML = newValue;
+            that.save(newValue);
             that.isEdit = false;
           };
         }

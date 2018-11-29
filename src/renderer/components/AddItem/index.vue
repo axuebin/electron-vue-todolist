@@ -11,7 +11,7 @@
       };
     },
     methods: {
-      onInput(e) {
+      onBlur(e) {
         this.content = e.target.value;
       },
       save() {
@@ -29,10 +29,11 @@
     render() {
       return (
         <div class="add-item">
-            <input value={this.content} class="input" placeholder="todo" ref="input" onInput={(e) => this.onInput(e)}/>
-            <div class="btn" onClick={this.save}>
-              <i class="iconfont icon-add"></i>
-            </div>
+          <input value={this.content} class="input" ref="input" onBlur={(e) => this.onBlur(e)}/>
+          <div class="btn" onClick={this.save}>
+            <i class="iconfont icon-add"></i>
+            <div class="text">新增</div>
+          </div>
         </div>
       );
     }

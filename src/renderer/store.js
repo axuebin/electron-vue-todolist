@@ -35,6 +35,13 @@ export const setLocalList = () => {
   window.localStorage.setItem('electron-vue-todolist', JSON.stringify(st.list));
 };
 
+export const clearLocalList = () => {
+  window.localStorage.removeItem('electron-vue-todolist');
+  updateState({
+    list: [],
+  });
+};
+
 export const updateListItem = (payload) => {
   const { list } = st;
   list.forEach((item) => {
@@ -42,7 +49,9 @@ export const updateListItem = (payload) => {
       item.content = payload.content;
     }
   });
-  st.list = list;
+  updateState({
+    list,
+  });
   setLocalList();
 };
 
@@ -55,6 +64,8 @@ export const addListItem = (payload) => {
     content: payload.content,
   };
   list.unshift(item);
-  st.list = list;
+  updateState({
+    list,
+  });
   setLocalList();
 };
