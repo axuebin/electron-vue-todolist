@@ -17,8 +17,13 @@
 
 <style>
   /* CSS */
-  div, p {
+  @import "assets/normalize.css";
+  * {
     margin: 0;
     padding: 0;
+  }
+  html, body {
+    width: 375px;
+    overflow: hidden;
   }
 </style>

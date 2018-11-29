@@ -18,12 +18,12 @@ function createWindow() {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 420,
+    height: 600,
     useContentSize: true,
-    width: 280,
+    width: 375,
     resizable: false,
     maximizable: false,
-    opacity: 0.8,
+    opacity: 0.9,
   });
 
   mainWindow.loadURL(winURL);

@@ -13,11 +13,13 @@
       }
     },
     render() {
-      return <div class="list">
-        {
-          this.data.map((item) => <list-item data={item}/>)
-        }
-      </div>;
+      return (
+        <div class="list">
+          {
+            this.data.map((item) => <list-item data={item}/>)
+          }
+        </div>
+      );
     }
   };
 </script>

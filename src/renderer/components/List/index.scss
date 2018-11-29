@@ -1,0 +1,5 @@
+.list {
+  height: 552px;
+  overflow-y: auto;
+  &::-webkit-scrollbar { width: 0 !important }
+}
