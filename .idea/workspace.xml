@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05951015-5d91-4eee-8335-1b41c978405e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/HeaderBar/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/HeaderBar/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/List/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/List/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/components/List/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/List/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/components/ListItem/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/ListItem/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/ListItem/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/ListItem/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -34,10 +30,10 @@
           <entry key="babelrc" value="2" />
           <entry key="css" value="3" />
           <entry key="ejs" value="1" />
-          <entry key="js" value="29" />
+          <entry key="js" value="30" />
           <entry key="json" value="2" />
-          <entry key="scss" value="19" />
-          <entry key="vue" value="23" />
+          <entry key="scss" value="26" />
+          <entry key="vue" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -45,25 +41,25 @@
           <entry key="CSS" value="3" />
           <entry key="EJS" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="29" />
-          <entry key="SCSS" value="19" />
-          <entry key="Vue.js" value="23" />
+          <entry key="JavaScript" value="30" />
+          <entry key="SCSS" value="26" />
+          <entry key="Vue.js" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="babelrc" value="10" />
-          <entry key="js" value="1310" />
-          <entry key="scss" value="539" />
-          <entry key="vue" value="2127" />
+          <entry key="js" value="1622" />
+          <entry key="scss" value="766" />
+          <entry key="vue" value="2470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="1310" />
-          <entry key="SCSS" value="539" />
-          <entry key="Vue.js" value="2127" />
+          <entry key="JavaScript" value="1622" />
+          <entry key="SCSS" value="766" />
+          <entry key="Vue.js" value="2470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -76,13 +72,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/components/ListItem/index.vue">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/renderer/components/AddItem/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="552">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
-                <element signature="e#29#73#0" expanded="true" />
+                <element signature="e#27#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,26 +87,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/ListItem/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state>
+              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderer/components/List/index.vue">
+        <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/renderer/components/List/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="672">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -158,12 +145,14 @@
         <option value="$PROJECT_DIR$/src/main/index.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/HeaderBar/index.scss" />
         <option value="$PROJECT_DIR$/src/renderer/util/index.js" />
-        <option value="$PROJECT_DIR$/src/renderer/components/List/index.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/store.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/ListItem/index.vue" />
-        <option value="$PROJECT_DIR$/src/renderer/components/ListItem/index.scss" />
-        <option value="$PROJECT_DIR$/src/renderer/App.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/List/index.scss" />
+        <option value="$PROJECT_DIR$/src/renderer/store.js" />
+        <option value="$PROJECT_DIR$/src/renderer/components/List/index.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/App.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/ListItem/index.scss" />
+        <option value="$PROJECT_DIR$/src/renderer/components/AddItem/index.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/components/AddItem/index.scss" />
       </list>
     </option>
   </component>
@@ -248,13 +237,6 @@
               <item name="electron-vue-todolist" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-vue-todolist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-vue-todolist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,7 +245,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="renderer" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="HeaderBar" type="462c0819:PsiDirectoryNode" />
+              <item name="AddItem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="electron-vue-todolist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="electron-vue-todolist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="electron-vue-todolist" type="b2602c69:ProjectViewProjectNode" />
@@ -280,20 +270,6 @@
               <item name="renderer" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="ListItem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-vue-todolist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-vue-todolist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-vue-todolist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-vue-todolist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,12 +321,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543413212438</updated>
-      <workItem from="1543413215840" duration="14924000" />
+      <workItem from="1543413215840" duration="16557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14924000" />
+    <option name="totallyTimeSpent" value="16557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -443,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/Index/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#27#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -490,48 +456,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/store.js">
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/List/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/Index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#27#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/ListItem/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="-244">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="e#29#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
+    <entry file="file://$PROJECT_DIR$/src/renderer/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/ListItem/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="536">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/List/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        <state relative-caret-position="456">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#29#68#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/components/List/index.scss">
+    <entry file="file://$PROJECT_DIR$/src/renderer/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="672">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/ListItem/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/AddItem/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/components/AddItem/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#27#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

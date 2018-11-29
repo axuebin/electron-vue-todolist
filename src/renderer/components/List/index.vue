@@ -1,9 +1,11 @@
 <script type="text/jsx">
+  import AddItem from '../AddItem/index';
   import ListItem from '../ListItem/index';
 
   export default {
     name: 'List',
     components: {
+      AddItem,
       ListItem,
     },
     props: {
@@ -15,6 +17,7 @@
     render() {
       return (
         <div class="list">
+          <add-item/>
           {
             this.data.map((item) => <list-item data={item}/>)
           }

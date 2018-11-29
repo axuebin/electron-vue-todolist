@@ -45,3 +45,15 @@ export const updateListItem = (payload) => {
   setLocalList();
 };
 
+export const addListItem = (payload) => {
+  const { list } = st;
+  const ids = list.map(item => item.id);
+  const maxId = Math.max(ids);
+  const item = {
+    id: maxId + 1,
+    content: payload.content,
+  };
+  list.unshift(item);
+  st.list = list;
+  setLocalList();
+};

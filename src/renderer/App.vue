@@ -26,4 +26,10 @@
     width: 375px;
     overflow: hidden;
   }
+  input {
+    outline:none;
+    background-color:transparent;
+    border:0;
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+  }
 </style>
