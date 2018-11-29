@@ -47,7 +47,7 @@ export const updateListItem = (payload) => {
 
 export const addListItem = (payload) => {
   const { list } = st;
-  const ids = list.map(item => item.id);
+  const ids = list.map(item => item.id) || [];
   const maxId = Math.max(ids);
   const item = {
     id: maxId + 1,

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05951015-5d91-4eee-8335-1b41c978405e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/renderer/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/List/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/List/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/ListItem/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/ListItem/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/store.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -30,7 +28,7 @@
           <entry key="babelrc" value="2" />
           <entry key="css" value="3" />
           <entry key="ejs" value="1" />
-          <entry key="js" value="30" />
+          <entry key="js" value="33" />
           <entry key="json" value="2" />
           <entry key="scss" value="26" />
           <entry key="vue" value="30" />
@@ -41,7 +39,7 @@
           <entry key="CSS" value="3" />
           <entry key="EJS" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="30" />
+          <entry key="JavaScript" value="33" />
           <entry key="SCSS" value="26" />
           <entry key="Vue.js" value="30" />
         </counts>
@@ -49,17 +47,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="babelrc" value="10" />
-          <entry key="js" value="1622" />
+          <entry key="js" value="1636" />
           <entry key="scss" value="766" />
-          <entry key="vue" value="2470" />
+          <entry key="vue" value="2665" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="1622" />
+          <entry key="JavaScript" value="1636" />
           <entry key="SCSS" value="766" />
-          <entry key="Vue.js" value="2470" />
+          <entry key="Vue.js" value="2665" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -72,14 +70,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/components/AddItem/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="744">
+              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
               <folding>
                 <element signature="e#27#71#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/renderer/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -147,12 +154,14 @@
         <option value="$PROJECT_DIR$/src/renderer/util/index.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/ListItem/index.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/List/index.scss" />
-        <option value="$PROJECT_DIR$/src/renderer/store.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/List/index.vue" />
         <option value="$PROJECT_DIR$/src/renderer/App.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/ListItem/index.scss" />
-        <option value="$PROJECT_DIR$/src/renderer/components/AddItem/index.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/AddItem/index.scss" />
+        <option value="$PROJECT_DIR$/src/renderer/components/AddItem/index.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/store.js" />
+        <option value="$PROJECT_DIR$/src/renderer/demo.js" />
+        <option value="$PROJECT_DIR$/src/renderer/aaaaaaaa.js" />
       </list>
     </option>
   </component>
@@ -321,12 +330,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543413212438</updated>
-      <workItem from="1543413215840" duration="16557000" />
+      <workItem from="1543413215840" duration="18785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16557000" />
+    <option name="totallyTimeSpent" value="18785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -483,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/List/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -523,11 +525,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/AddItem/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="744">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
           <folding>
             <element signature="e#27#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="25" column="7591" selection-start-line="25" selection-start-column="7591" selection-end-line="25" selection-end-column="7591" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/aaaaaaaa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="7670" selection-start-line="4" selection-start-column="7657" selection-end-line="4" selection-end-column="7670" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
         </state>
       </provider>
     </entry>

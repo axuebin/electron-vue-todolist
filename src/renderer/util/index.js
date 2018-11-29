@@ -15,8 +15,14 @@ const colors = [
   'linear-gradient(to right, #ee0979, #ff6a00)',
 ];
 
+let lastRandomColorIndex = 0;
+
 export const getRandomColor = () => {
-  const index = Math.floor((Math.random() * colors.length) + 1) - 1;
+  let index = Math.floor((Math.random() * colors.length) + 1) - 1;
+  while (index === lastRandomColorIndex) {
+    index = Math.floor((Math.random() * colors.length) + 1) - 1;
+  }
+  lastRandomColorIndex = index;
   return colors[index];
 };
 export const test = () => {};
