@@ -18,6 +18,7 @@
 <style>
   /* CSS */
   @import "assets/normalize.css";
+  @import "assets/iconfont.css";
   * {
     margin: 0;
     padding: 0;

@@ -15,9 +15,12 @@
   }
   .btn {
     background: #f5f5f5;
-    width: 100px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    .iconfont {
+      font-size: 20px;
+    }
   }
 }

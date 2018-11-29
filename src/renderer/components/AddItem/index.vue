@@ -11,13 +11,14 @@
       };
     },
     methods: {
-      onBlur(e) {
+      onInput(e) {
         this.content = e.target.value;
       },
       save() {
         addListItem({
           content: this.content,
         });
+        this.content = '';
       },
     },
     mounted() {
@@ -28,8 +29,10 @@
     render() {
       return (
         <div class="add-item">
-            <input class="input" placeholder="todo" ref="input" onBlur={(e) => this.onBlur(e)}/>
-            <div class="btn" onClick={this.save}>增加</div>
+            <input value={this.content} class="input" placeholder="todo" ref="input" onInput={(e) => this.onInput(e)}/>
+            <div class="btn" onClick={this.save}>
+              <i class="iconfont icon-add"></i>
+            </div>
         </div>
       );
     }

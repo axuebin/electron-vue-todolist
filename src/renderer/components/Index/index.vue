@@ -18,9 +18,7 @@
     render() {
       return <div class="">
         <header-bar/>
-        {
-          this.list && this.list.length ? <list data={this.list}/> : ''
-        }
+        <list data={this.list}/>
       </div>;
     },
   };

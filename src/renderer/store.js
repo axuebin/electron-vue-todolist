@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import { getArrayMax } from './util';
 
 const app = new Vue({
   data: {
@@ -24,7 +25,7 @@ export const updateState = (payload) => {
 };
 
 export const initState = () => {
-  const list = JSON.parse(window.localStorage.getItem('electron-vue-todolist'));
+  const list = JSON.parse(window.localStorage.getItem('electron-vue-todolist')) || [];
   updateState({
     list,
   });
@@ -48,7 +49,7 @@ export const updateListItem = (payload) => {
 export const addListItem = (payload) => {
   const { list } = st;
   const ids = list.map(item => item.id) || [];
-  const maxId = Math.max(ids);
+  const maxId = getArrayMax(ids) || 0;
   const item = {
     id: maxId + 1,
     content: payload.content,

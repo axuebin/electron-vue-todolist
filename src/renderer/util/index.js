@@ -25,4 +25,13 @@ export const getRandomColor = () => {
   lastRandomColorIndex = index;
   return colors[index];
 };
-export const test = () => {};
+export const getArrayMax = (arr) => {
+  let max = arr[0];
+  const len = arr.length;
+  for (let i = 1; i < len; i += 1) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
+};

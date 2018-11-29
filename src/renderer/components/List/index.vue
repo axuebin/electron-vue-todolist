@@ -19,7 +19,7 @@
         <div class="list">
           <add-item/>
           {
-            this.data.map((item) => <list-item data={item}/>)
+            this.data && this.data.length > 0 && this.data.map((item) => <list-item data={item}/>)
           }
         </div>
       );
