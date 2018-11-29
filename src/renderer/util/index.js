@@ -25,6 +25,7 @@ export const getRandomColor = () => {
   lastRandomColorIndex = index;
   return colors[index];
 };
+
 export const getArrayMax = (arr) => {
   let max = arr[0];
   const len = arr.length;
@@ -34,4 +35,35 @@ export const getArrayMax = (arr) => {
     }
   }
   return max;
+};
+
+export const formatDate = (timestamp) => {
+  const time = new Date(timestamp);
+  const year = time.getFullYear();
+  const month = time.getMonth();
+  const date = time.getDate();
+  return `${year}-${month}-${date}`;
+};
+
+export const fakeClick = (obj) => {
+  const ev = document.createEvent('MouseEvents');
+  ev.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+  obj.dispatchEvent(ev);
+};
+
+export const exportRaw = (name, data) => {
+  const urlObject = window.URL || window.webkitURL || window;
+  const exportBlob = new Blob([data]);
+  const saveLink = document.createElementNS('http://www.w3.org/1999/xhtml', 'a');
+  saveLink.href = urlObject.createObjectURL(exportBlob);
+  saveLink.download = name;
+  fakeClick(saveLink);
+};
+
+export const download = (list) => {
+  let result = 'TodoList：\n';
+  list.forEach((item) => {
+    result += `${formatDate(item.updatedTime || item.createdTime)}:   ${item.content}\n`;
+  });
+  exportRaw(`${formatDate(Date.now())}-todoList.txt`, result);
 };

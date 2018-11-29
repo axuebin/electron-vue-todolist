@@ -1,11 +1,18 @@
 <script type="text/jsx">
-  import { clearLocalList } from '../../store';
+  import { mapState, clearLocalList } from '../../store';
+  import { download } from '../../util';
 
   export default {
     name: 'HeadBar',
+    computed: {
+      ...mapState(['list'])
+    },
     methods: {
       empty() {
         clearLocalList();
+      },
+      export() {
+        download(this.list);
       }
     },
     render() {
@@ -17,7 +24,7 @@
               <i class="iconfont icon-empty"></i>
               <div class="text">清空</div>
             </div>
-            <div class="icon">
+            <div class="icon" onClick={this.export}>
               <i class="iconfont icon-download"></i>
               <div class="text">导出</div>
             </div>
