@@ -44,6 +44,7 @@
         updateListItem({
           id: this.data.id,
           content: val,
+          updatedTime: Date.now()
         })
       },
     },

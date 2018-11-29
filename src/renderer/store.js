@@ -47,6 +47,7 @@ export const updateListItem = (payload) => {
   list.forEach((item) => {
     if (item.id === payload.id) {
       item.content = payload.content;
+      item.updatedTime = payload.updatedTime;
     }
   });
   updateState({
@@ -61,7 +62,7 @@ export const addListItem = (payload) => {
   const maxId = getArrayMax(ids) || 0;
   const item = {
     id: maxId + 1,
-    content: payload.content,
+    ...payload,
   };
   list.unshift(item);
   updateState({

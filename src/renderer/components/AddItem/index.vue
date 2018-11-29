@@ -17,6 +17,7 @@
       save() {
         addListItem({
           content: this.content,
+          createdTime: Date.now(),
         });
         this.content = '';
       },
