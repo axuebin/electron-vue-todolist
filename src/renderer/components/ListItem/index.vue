@@ -32,11 +32,20 @@
           input.setSelectionRange(0, oldHtml.length);
           input.focus();
           const that = this;
+          input.onkeydown = function (e) {
+            const ENTER_CODE = 13;
+            if (e.keyCode === ENTER_CODE) {
+              this.blur();
+            }
+          };
           input.onblur = function () {
             const newValue = this.value === oldHtml ? oldHtml : this.value;
-            // element.innerHTML = newValue;
+            element.removeChild(input);
+            element.innerText = newValue;
             that.save(newValue);
-            that.isEdit = false;
+            that.$nextTick(() => {
+              that.isEdit = false;
+            });
           };
         }
       },

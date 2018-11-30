@@ -11,6 +11,13 @@
       };
     },
     methods: {
+      onKeyup(e) {
+        const ENTER_CODE = 13;
+        if (e.keyCode === ENTER_CODE) {
+          this.content = e.target.value;
+          this.save();
+        }
+      },
       onBlur(e) {
         this.content = e.target.value;
       },
@@ -30,7 +37,11 @@
     render() {
       return (
         <div class="add-item">
-          <input value={this.content} class="input" ref="input" onBlur={(e) => this.onBlur(e)}/>
+          <input value={this.content}
+                 class="input"
+                 ref="input"
+                 onKeyup= {(e) => this.onKeyup(e)}
+                 onBlur={(e) => this.onBlur(e)}/>
           <div class="btn" onClick={this.save}>
             <i class="iconfont icon-add"></i>
             <div class="text">新增</div>
