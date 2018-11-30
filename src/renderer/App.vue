@@ -22,6 +22,7 @@
   * {
     margin: 0;
     padding: 0;
+    border: 0;
     user-select: none;
   }
   html, body {

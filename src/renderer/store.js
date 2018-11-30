@@ -46,6 +46,7 @@ export const updateListItem = (payload) => {
   const { list } = st;
   list.forEach((item) => {
     if (item.id === payload.id) {
+      item.isDone = payload.isDone;
       item.content = payload.content;
       item.updatedTime = payload.updatedTime;
     }

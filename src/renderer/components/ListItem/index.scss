@@ -1,25 +1,62 @@
 .list-item {
-  box-sizing: border-box;
   height: 66px;
-  padding: 0 12px;
-  .content {
+  display: flex;
+  position: relative;
+  .right, .delete{
     height: 66px;
-    line-height: 66px;
+    width: 190px;
+    position: absolute;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    .iconfont {
+      font-size: 28px;
+      color: #FFF;
+    }
+  }
+  .delete {
+    justify-content: flex-end;
+    right: 0;
+    .iconfont {
+      margin-right: 20px;
+    }
+  }
+  .right {
+    justify-content: flex-start;
+    left: 0;
+    .iconfont {
+      margin-left: 20px;
+    }
+  }
+  .item {
     flex: 1;
-    font-size: 16px;
-    color: #FFF;
-    overflow: hidden;
-    text-overflow:ellipsis;
-    white-space: nowrap;
-    -webkit-user-select:none;
-    cursor: default;
-    .input {
-      display: inline-block;
-      width: 100%;
+    height: 66px;
+    box-sizing: border-box;
+    padding: 0 12px;
+    z-index: 2001;
+    transition: transform 0.3s ease-out;
+    .content {
       height: 66px;
       line-height: 66px;
+      flex: 1;
       font-size: 16px;
       color: #FFF;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+      -webkit-user-select:none;
+      cursor: default;
+      .input {
+        display: inline-block;
+        width: 100%;
+        height: 66px;
+        line-height: 66px;
+        font-size: 16px;
+        color: #FFF;
+      }
+    }
+    .done {
+      text-decoration:line-through;
     }
   }
 }
