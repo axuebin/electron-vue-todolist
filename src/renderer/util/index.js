@@ -61,9 +61,9 @@ export const exportRaw = (name, data) => {
 };
 
 export const download = (list) => {
-  let result = 'TodoList：\n';
+  let result = '### TodoList：\n';
   list.forEach((item) => {
-    result += `${formatDate(item.updatedTime || item.createdTime)}:   ${item.content}\n`;
+    result += `- ${formatDate(item.updatedTime || item.createdTime)}:   ${item.content}\n\n`;
   });
-  exportRaw(`${formatDate(Date.now())}-todoList.txt`, result);
+  exportRaw(`${formatDate(Date.now())}-todoList.md`, result);
 };

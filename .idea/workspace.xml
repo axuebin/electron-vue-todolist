@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05951015-5d91-4eee-8335-1b41c978405e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/HeaderBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/HeaderBar/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/util/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -49,7 +47,7 @@
         <counts>
           <entry key="babelrc" value="10" />
           <entry key="ejs" value="17" />
-          <entry key="js" value="2545" />
+          <entry key="js" value="2563" />
           <entry key="scss" value="1051" />
           <entry key="vue" value="3447" />
         </counts>
@@ -58,7 +56,7 @@
         <counts>
           <entry key="EJS" value="17" />
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="2545" />
+          <entry key="JavaScript" value="2563" />
           <entry key="SCSS" value="1051" />
           <entry key="Vue.js" value="3447" />
         </counts>
@@ -107,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/renderer/util/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+            <state relative-caret-position="680">
+              <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -358,12 +356,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543413212438</updated>
-      <workItem from="1543413215840" duration="24463000" />
+      <workItem from="1543413215840" duration="24726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24463000" />
+    <option name="totallyTimeSpent" value="24726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -591,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/util/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+        <state relative-caret-position="680">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
         </state>
       </provider>
     </entry>
