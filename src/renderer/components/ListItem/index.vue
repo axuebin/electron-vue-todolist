@@ -102,7 +102,7 @@
           updateListItem(item);
         }
         if (this.direction === 'left' && this.dX << -60) {
-          // todo
+
         }
       }
     },
