@@ -1,6 +1,6 @@
 <script type="text/jsx">
   import { getRandomColor } from '../../util';
-  import { updateListItem } from '../../store';
+  import { updateListItem, removeListItem } from '../../store';
 
   export default {
     name: 'ListItem',
@@ -101,8 +101,8 @@
           item.updatedTime = Date.now();
           updateListItem(item);
         }
-        if (this.direction === 'left' && this.dX << -60) {
-
+        if (this.direction === 'left' && this.dX <= -60) {
+          removeListItem(item);
         }
       }
     },

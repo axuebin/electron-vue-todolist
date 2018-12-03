@@ -57,6 +57,20 @@ export const updateListItem = (payload) => {
   setLocalList();
 };
 
+export const removeListItem = (payload) => {
+  const { list } = st;
+  const { id } = payload;
+  list.forEach((item, index) => {
+    if (item.id === id) {
+      list.splice(index, 1);
+    }
+  });
+  updateState({
+    list,
+  });
+  setLocalList();
+};
+
 export const addListItem = (payload) => {
   const { list } = st;
   const ids = list.map(item => item.id) || [];
