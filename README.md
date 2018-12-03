@@ -1,6 +1,12 @@
 # electron-vue-todolist
 
-> An electron-vue project
+> 自己用的功能比较简单的 todoList
+
+![](https://axuebin-1256202733.cos.ap-shanghai.myqcloud.com/WX20181203-150611.png)
+
+#### 功能
+
+- 导出 md
 
 #### 开发
 
