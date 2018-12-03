@@ -117,18 +117,18 @@
           this.onMouseDown(e);
         });
         this.$refs.item.addEventListener('mousemove', e => {
-          if (this.isClick) {
+          if (this.isClick && !this.isEdit) {
             this.onMouseMove(e);
           }
         });
         this.$refs.item.addEventListener('mouseup', e => {
-          if (this.isClick && Math.abs(this.dX) >= 10) {
+          if (this.isClick && !this.isEdit && Math.abs(this.dX) >= 10) {
             this.isClick = false;
             this.onMouseUp(e);
           }
         });
         this.$refs.item.addEventListener('mouseleave', e => {
-          if (this.isClick && Math.abs(this.dX) >= 10) {
+          if (this.isClick && !this.isEdit && Math.abs(this.dX) >= 10) {
             this.isClick = false;
             this.onMouseUp(e);
           }
