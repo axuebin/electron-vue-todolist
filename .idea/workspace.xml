@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05951015-5d91-4eee-8335-1b41c978405e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/ListItem/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/ListItem/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,7 +28,7 @@
           <entry key="babelrc" value="2" />
           <entry key="css" value="11" />
           <entry key="ejs" value="2" />
-          <entry key="js" value="47" />
+          <entry key="js" value="49" />
           <entry key="json" value="2" />
           <entry key="scss" value="39" />
           <entry key="vue" value="52" />
@@ -38,7 +39,7 @@
           <entry key="CSS" value="11" />
           <entry key="EJS" value="2" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="47" />
+          <entry key="JavaScript" value="49" />
           <entry key="SCSS" value="39" />
           <entry key="Vue.js" value="52" />
         </counts>
@@ -47,7 +48,7 @@
         <counts>
           <entry key="babelrc" value="10" />
           <entry key="ejs" value="17" />
-          <entry key="js" value="2920" />
+          <entry key="js" value="2996" />
           <entry key="scss" value="1465" />
           <entry key="vue" value="6333" />
         </counts>
@@ -56,7 +57,7 @@
         <counts>
           <entry key="EJS" value="17" />
           <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="2920" />
+          <entry key="JavaScript" value="2996" />
           <entry key="SCSS" value="1465" />
           <entry key="Vue.js" value="6333" />
         </counts>
@@ -71,14 +72,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/renderer/components/ListItem/index.vue">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/renderer/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
+            <state relative-caret-position="-113">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
-                <element signature="e#27#71#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#175#269#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -123,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/renderer/components/Index/index.jsx" />
         <option value="$PROJECT_DIR$/src/renderer/main.js" />
         <option value="$PROJECT_DIR$/src/renderer/assets/normalize.css" />
-        <option value="$PROJECT_DIR$/src/main/index.js" />
         <option value="$PROJECT_DIR$/src/renderer/demo.js" />
         <option value="$PROJECT_DIR$/src/renderer/aaaaaaaa.js" />
         <option value="$PROJECT_DIR$/src/renderer/iconfont.css" />
@@ -138,8 +148,9 @@
         <option value="$PROJECT_DIR$/src/renderer/components/AddItem/index.scss" />
         <option value="$PROJECT_DIR$/src/renderer/App.vue" />
         <option value="$PROJECT_DIR$/src/renderer/components/ListItem/index.scss" />
-        <option value="$PROJECT_DIR$/src/renderer/store.js" />
         <option value="$PROJECT_DIR$/src/renderer/components/ListItem/index.vue" />
+        <option value="$PROJECT_DIR$/src/renderer/store.js" />
+        <option value="$PROJECT_DIR$/src/main/index.js" />
       </list>
     </option>
   </component>
@@ -159,10 +170,12 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/todoList-darwin-x64/todoList.app/Contents/Resources/app/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/todoList-darwin-x64/todoList.app/Contents/Resources/app/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -332,12 +345,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543413212438</updated>
-      <workItem from="1543413215840" duration="36369000" />
+      <workItem from="1543413215840" duration="37090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36369000" />
+    <option name="totallyTimeSpent" value="37090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -422,13 +435,6 @@
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -536,21 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/renderer/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#175#269#0" />
-            <element signature="e#312#397#0" />
-            <element signature="e#431#553#0" />
-            <element signature="e#590#674#0" />
-            <element signature="e#713#811#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/ListItem/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1416">
@@ -560,11 +551,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/components/ListItem/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
+        <state relative-caret-position="630">
+          <caret line="111" column="19" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
           <folding>
             <element signature="e#27#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/renderer/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#175#269#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>

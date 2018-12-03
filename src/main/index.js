@@ -31,9 +31,6 @@ function createWindow() {
   mainWindow.on('closed', () => {
     mainWindow = null;
   });
-  mainWindow.webContents.openDevTools({
-    mode: 'detach',
-  });
 }
 
 function createMenu() {
